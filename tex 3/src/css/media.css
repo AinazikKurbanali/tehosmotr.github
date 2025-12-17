@@ -1,0 +1,247 @@
+
+@media (max-width: 1320px) {
+
+}
+@media (max-width: 1200px) {
+
+
+}
+@media (max-width: 1110px) {
+    .header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .home-block{
+        height: 550px;
+    }
+    .home {
+        padding: 60px 0 50px;
+    }
+    .features-box-text br{
+        display: none;
+    }
+    .schedules-block {
+        row-gap: 46px;
+    }
+    .schedules-line {
+        margin-top: 45px;
+    }
+    .testimonials-box-text br{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-nav{
+        position: flxed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+
+    .home-title {
+        font-size: 50px;
+    }
+    .home {
+        padding: 40px 0 0;
+    }
+    .home-block {
+        height: 500px;
+    }
+    .schedules {
+        margin-top: 60px;
+    }
+    .schedules-text {
+        margin-bottom: 50px;
+    }
+    .schedules-box-left {
+        width:  50%;
+        padding: 0!important;
+    }
+    .schedules-box-right {
+        width:  50%;
+    }
+    .schedules-box{
+        align-items: center;
+        column-gap: 30px;
+    }
+    .schedules-box-text br{
+        display: none;
+    }
+    .footer-text{
+        margin: 0 20px 0 0;
+    }
+    .footer-text br {
+        display: none;
+    }
+    .testimonials {
+        margin-top: 50px;
+    }
+    .testimonials-text {
+        margin: 16px 0 60px;
+    }
+    .footer {
+        margin: 70px 0 50px;
+    }
+}
+@media (max-width: 876px) {
+    .footer-list{
+        display: none;
+    }
+
+    .home-block {
+        height: 450px;
+    }
+    .home-title {
+        font-size: 43px;
+    }
+    .features-title {
+        font-size: 36px;
+    }
+    .features-text br{
+        display: none;
+    }
+    .features-block {
+        gap: 40px;
+    }
+    .features-box{
+        width: calc(50% - 20px);
+    }
+    .schedules-box-text {
+        font-size: 18px;
+    }
+    .testimonials-block{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .testimonials-box{
+        width: 100%;
+    }
+    .testimonials-text br{
+        display: none;
+    }
+    .mask-row{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer-row{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .footer-social {
+        margin-top: 30px;
+        align-self: flex-end;
+    }
+    .footer-col:last-child {
+        width: auto;
+        align-items: flex-start;
+    }
+
+}
+@media (max-width: 768px) {
+    .block {
+        background: transparent !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-text {
+        display: none;
+    }
+
+    .header-tex {
+        display: flex !important;
+    }
+
+    .mobile-menu {
+        width: 240px;
+    }
+
+    .mobile-menu.active {
+        display: block;
+    }
+
+    .mobile-menu .home-text {
+        font-size: 17px;
+        color: #000;
+        margin-bottom: 12px;
+    }
+
+    .mobile-menu a {
+        color: #000;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .mobile-menu a:hover {
+        text-decoration: underline;
+    }
+
+    .header-tex.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .header-tex.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .header-tex.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+
+
+    .header-image{
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        width: 150px;
+        height: 40px;
+        align-items: center;
+
+
+    }
+    .home-text,
+    .header-image,
+    .header-nav a {
+        transition: 0.3s;
+    }
+
+
+    .header-nav.closed .home-text,
+    .header-nav.closed .header-image,
+    .header-nav.closed a {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .header-nav.open .home-text,
+    .header-nav.open .header-image,
+    .header-nav.open a {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+}
+@media (max-width: 667px) {
+
+
+}
+@media (max-width: 576px) {
+    .mask-col:last-child {
+        display: grid;
+        row-gap: 14px;
+        column-gap: 5px;
+    }
+
+}
+@media (max-width: 425px) {
+
+
+}
+
+
+
